@@ -1,0 +1,6 @@
+f = open("Que40 file1.txt" , "r")
+read = f.read()
+g = open("Que40 file2.txt" , "w")
+write = g.write(read)
+f.close()
+g.close()
